@@ -34,4 +34,11 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LTIN124555-releases</name>
+        <url>http://localhost:8040/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 </project>

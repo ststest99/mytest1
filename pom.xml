@@ -40,5 +40,10 @@
         <name>LTIN124555-releases</name>
         <url>http://localhost:8040/artifactory/libs-release</url>
     </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>libs-snapshot</name>
+      <url>http://localhost:8040/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>

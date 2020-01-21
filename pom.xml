@@ -7,6 +7,10 @@
   <version>1.1-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
+  <properties>
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,8 +34,6 @@
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
-          <source>1.8</source>
-          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>

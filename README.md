@@ -15,4 +15,5 @@ contains a shell script with commands that are executed when Jenkins processes
 the "Deliver" stage of your Pipeline.
 
 The pom also has configuration of Artifact repository configured in local machine.
-You need to change the url/port to integrate with your local Artifactory.
+You need to change the url/port to integrate with your local Artifactory to push the
+generated snapshot to artifactory.

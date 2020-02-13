@@ -17,3 +17,7 @@ the "Deliver" stage of your Pipeline.
 The pom also has configuration of Artifact repository configured in local machine.
 You need to change the url/port to integrate with your local Artifactory to push the
 generated snapshot to artifactory.
+
+This project is used in following demo for better understanding:
+
+https://youtu.be/HhxKiAOLZ8U
